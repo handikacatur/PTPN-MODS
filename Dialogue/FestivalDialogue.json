@@ -1,0 +1,566 @@
+{
+	"Changes": [
+		{ //Egg Festival
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "Have a care not to miss any.#$b#The smell of rotting eggs attracts basilisks.${{e3}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "Last year the townsfolk neglected to care for some left behind eggs.#$b#Had it not been for me, the basilisks would've wrought havoc upon Pelican Town.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "This ritual of egg-hunting makes little sense to me.#$b#Yet every year I come and marvel at the the bizarre excuses mundane folk concoct for an excuse to celebrate.${{e3}}#$e#Can't you just have a festival for the sake of it?${{e3}}#$b#No one is fooled.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "Such senseless activity with such senseless results.#$b#Why hasn't this painful tradition, with such agonizing cleanup, faded over the generations already?",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "The egg, perhaps, symbolizes a rebirth.${{e3}}#$b#In spring, all things are born anew, are they not.${{e3}}#$e...#$e#I'm overthinking this, aren't I?${{e10}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "Perhaps, it is not the egg that drives their motivation to pursue this strange tradition.${{e3}}#$b#The egg hunt is specifically designed with children in mind, is it not? Therefore they must be connected...${{e3}}#b#Children do begin as eggs...${{e3}}#b#I'm afraid I still don't understand these bizarre festivities.${{e10}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "@.#$b#This is very important, so I need you to listen very closely and consider your answer carefully.${{e1}}#$b...${{e1}}#$b#What is the purpose of the egg hunt?!${{e10}}#$e#Surely, you can share the secret with me.${{e10}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "If I were to procure all the iridium ore you may need to last the rest of spring, would that entice you enough to explain this festival to me?${{e9}}#$b#No?${{e1}}#$b#How about as many kisses as I may possibly muster after the festival?${{e7}}#$b#Still no?${{e1}}#$b#My, you're difficult to please aren't you.${{e7}}#$e#Perhaps it is true, the mystery of the egg festival is destined to forever elude me.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "Yes, I did say I was not going to attend.#$b#...#$b#And yet, here we are.${{e3}}#$e#I can't stop myself!${{e11}}#$b#Why do they hunt eggs?!${{e10}}#$e#I won't be able to sleep tonight unless I find the answer.${{e11}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "Regardless how much I swear to abstain from the Egg Festival, it always drags me back in. It's as if the egg itself is placing me in a trance...${{e3}}$#b#Perhaps it's finally driven me mad.${{e10}}#$b#@. You have to help me.${{e10}}#$b#Why must it be eggs??${{e11}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {"Wizard": "%Magnus looks lost in thought.",}
+        },
+
+        { //Flower Dance (Acceptance/Denial Dialogue in Strings)
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "I can't work with such a commotion happening out here.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "I'm waiting for them to disperse to begin with a ritual.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "Each year I watch from afar and I still do not understand these customs.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "I'm afraid this event makes as little sense to me as the previous.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "They do look very happy.${{e2}}#$b#...Maybe next year I will join in.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "Their happiness radiates into the surrounding elementals. You can sense it even from here.${{e3}}#$b#...${{e2}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "Ah. So you've found me.${{e1}}#$b#And here I thought I was being covert.${{e1}}#$e#Dance...?${{e3}}#$b#Ah...${{e4}}#$b#I... do not think that would be wise.${{e4}}#$b#I don't know the steps.${{e3}}#$e#I apologize if I've disappointed you...${{e4}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "@?${{e3}}#$b#What am I doing here?${{e3}}#$b#Studying I presume.${{e1}}#$b#Courting you has made me more curious of the other townsfolk. I wish to understand them better.${{e1}}#$b#Is it going well?${{e3}}#$b#Ah... well...${{e11}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"IsOddYear": true, "Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "Ah...${{e3}}#$b#...Yes, alright, I came.${{e10}}#$b#It isn't because I don't trust you.${{e11}}#$b#I only wanted to learn how to make you happier.${{e9}}#$e#I wish I could dance with you.${{e6}}#$b#But I can't go down there.${{e4}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "...Greetings, my love.${{e9}}#$b#...${{e9}}#$b#I must apologize. I said I wouldn't come but here I am...${{e2}}#$b#I thought further about what I had said this morning... and I remembered how much these festivities mean to you.${{e2}}#$b#So I came. Hoping to understand this festival, and by extension you, some more.${{e1}}#$e#Please forgive me, @.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {"Wizard": "Does speaking to me today, of all days, entertain you? You have a sick sense of humor.#$e#Leave.${{e5}}",}
+        },
+
+        { //Luau
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "You would do well to study the merpeople in these parts.#$e#You can learn a great deal from opening your eyes to lifeforms outside of your own.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "If only the townsfolk new who's watching, perhaps they'd be more respectful of their surroundings.#$b#The merpeople have long lasting memories.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "If you wish to do the merpeople a service, you'll stay after and make sure those townsfolk take away all the garbage they have brought along.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "The merpeople are often shackled with cleaning up after human beach activity.#$b#The Luau is the most infamous and dreadful day in their clans.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "I wouldn't try that soup, if I were you.${{e3}}#$b#You haven't been standing here watching what they've put in.${{e3}}#$e#Aren't there rules for this sort of thing?${{e11}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "Are you participating in the communal soup this year?#$b#Seeing what nonsense gets placed in it year after year, it almost rivals my own cauldron.${{e7}}#$b#You're the only hope that soup has, @. Please save Pelican Town from food poisoning.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "@. Thank you for coming to talk to me.${{e7}}#$b#The merfolk are good company, but I still prefer yours.${{e4}}#$e#How would you like to learn their language?${{e7}}#$b#I can teach you some now.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "It's good to see you, @.${{e1}}#$b#The merfolk were just asking about you. I promise I said only good things.${{e7}}#$b#Would you like to meet them when you have the time? I think you would find them quite interesting.${{e3}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "The common folk are always telling tales of the beauty of merfolk.${{e1}}#$b#I have never found them so.${{e3}}#$b#Interesting, certainly, but not beautiful.${{e9}}#$e#Perhaps because you show me true beauty every day.${{e6}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "The ocean is...nice.#$b#We should come here more often, just the two of us.${{e1}}#$b#If we do, I can tell the merfolk to leave us be and we can have the further half of the beach all to ourselves.${{e4}}#$b#What do you think?${{e6}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {"Wizard": "I'm busy. Find entertainment elsewhere.",}
+        },
+
+        { //Dance of the Moonlight Jellies
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "I can feel the building energy in the night.#$b#Very soon, now.${{e1}}#$e#Mind that you pay close attention.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "The Lunaloos carry with them an aura of sorts. With their unique atmosphere, they create a truly unforgettable night.${{e1}}#$b#Don't let it slip by.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "You have a keen mind, @.#$b#If you focus, I'm certain you will be able to sense the arcane energies that the Lunaloos project.${{e1}}#$e#Sharpen your mind. Enjoy the night, @.${{e9}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "You must have noticed the changes in the air already. It certainly makes the night feel spectacular, don't you think?${{e1}}#$b#Don't get caught up with the energies though, the Lunaloos are a sight to behold.${{e9}}#$b#I hope you enjoy yourself tonight, @.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "You'll miss the Lunaloos if you spend all your time lurking in the shadows.${{e1}}#$e#What do you mean what about me?${{e3}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "Aren't you cold, @?#$b#You should warm up by the cabin if you are. It's getting quite chilly here by the woods.#$e#Hm?${{e3}}#$b#Don't worry about me, I have my cloak to keep warm.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "I can sense them well enough from over here, thank you.#$b#There are too many people on the docks.${{e3}}#$e#I wouldn't say no to your company, however.${{e7}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "I'd rather not come over. In such darkness, I may unnerve them even further.#$b#...#$b#You look stunning when the shadows grace your face like that though.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "My heart.${{e1}}#$b#Sit with me. Clear your mind and feel the energies flow around you.${{e7}}#$e#Can you sense them?${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "May I compare thee to a Lunaloos glow?${{e1}}#$b#What?${{e3}}#$b#Perhaps I may have read some of the books in your collection, yes.${{e9}}#$b#Is it a crime for me to spend the festival praising the main attraction of the night?${{e6}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer28",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {"Wizard": "%Magnus is averting your gaze.",}
+        },
+
+        { //Stardew Valley Fair
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "You would do well to listen to Welwick's divination.#$b#Her senses are sharply attuned to the future.${{e3}}#$e#Incidentally, I would avoid that clown, were I you.${{e11}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "Welwick can divinate much further beyond merely relationships.#$b#For example, she can foretell what items your fellow farmers will bring to next year's fair.${{e1}}#$e#As for the clown? Well...${{e3}}#$b#I am afraid I don't have as many positive impressions.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "That clown is back.${{e11}}#$b#Every time I see him it sparks something uncomfortable in me, yet I still can't place him.${{e10}}#$e#Somehow I feel as if he is taunting me.${{e10}}#$b#But he hasn't looked this direction even once.${{e11}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "That clown is at the peak of his career with the indistinguishable farce hes maintaining. I fear he may the beginning of many children's coulrophobia.${{e10}}#$b#I swear on my entire tome collection, I've seen his wry face someplace before...${{e11}}#$e#In a nightmare...?${{e11}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "That's it!!${{e1}}#$b#It was the School of Illusion!${{e1}}#$b#Without a doubt, that is Ixeor the Mad!${{e1}}#$b#He dropped out before completing the program. I daresay we all thought he had gone properly mad.${{e3}}#$b#Maybe he has.${{e11}}#$e#Better that you give him a wide berth, @.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "Greetings, @.${{e1}}#$b#Are you entering the grange display again? Your crops are bursting with vitality this year, you'd rank high I'm sure.${{e9}}#$e#No, I did not consult with Welwick for that prediction. It is solely my own.${{e7}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "Have I introduced you to Welwick, @?${{e1}}#$b#There are certainly cons in this field, but I assure you, she is not one of them${{e9}}b#Her grasp of the unknown is admirable.${{e1}}#$e#Hmm? You aren't jealous are you?${{e3}}#$b#She's only a friend.${{e7}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "Have I ever counseled with Welwick myself?${{e3}}#$b#I've never felt it necessary. I'm capable of divination myself, albeit not as extensively as Welwick.#$b#Furthermore, divination is indefinite at best, and dangerous at worst.#$b# There is a time and place for it, but somethings are certainly worth left unspoiled. Otherwise where's the enjoyment in living?${{e1}}#$e#Let's just say I have my own hopes for the future, and I don't wish to be let down or assured.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "@, you remember my friend Welwick, I'm certain.${{e1}}#$b#We must invite her over for dinner, once this is through.${{e9}}#$e#...ah... you wouldn't mind cooking, would you?${{e4}}#$b#You know how reliable I am in the kitchen...${{e10}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "You worked tirelessly for your grange display this year, @. We should celebrate it once we return home.${{e1}}#$b#I cannot promise to prepare a delicious meal, but perhaps we can ask to bring extra food home from...${{e9}}#$b#...Gus? ...Is that the man's name?${{e3}}#$e#It has been difficult memorizing the names of people you have been, until now, fervently avoiding.${{e9}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {"Wizard": "The lineup for Welwick is that way.",}
+        },
+        
+        { //Spirit's Eve
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": { "Hearts:Wizard": "0, 1, 2, 3, 4, 5" },
+        "Entries": {"Wizard": "Hello, @. Have you entered the maze? I deployed... surprises for anyone who dares enter.${{e1}}#$e#I might have gone a little overboard with the monsters!${{e7}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": { "IsOddYear": false, "Hearts:Wizard": "0, 1, 2, 3, 4, 5" },
+        "Entries": { "Wizard": "The town fountain is safe in another dimension...${{e3}}#$e#I haven't used this much mana in a while...${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "It never ceases to amaze me how tied up in this maze some people become.${{e3}}#$e#Why can they not see through the temptations and horrors?${{e3}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "With the approach of winter, using this much mana has exhausted me beyond normal.#$b#But I enjoy contributing to Pelican Town in this manner. No socialization required, just arcane magic and creativity.${{e7}}#$b#Not to mention, it's good exercise too.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "This maze may be a worthwhile place for you to hone your skills, my heart.${{e7}}#$b#If you focus, you should be able to commune with at least one of these elementals.${{e1}}#$e#Try.${{e7}}#$b#Reach out and...${{e9}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "There is increased elemental activity this year once again. We could take the opportunity to train you further if you'd like.${{e3}}#$b#While I'm confident you're adept enough to handle the task on your own, if you ever require assistance while in the maze do not be afraid to speak my name, I'll promptly come.${{e1}}#$b#Two great minds are always better than one.${{e7}}#$e#Besides, being together in the deep depths of a maze alone... doesn't sound that foul.${{e4}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "Did you see the elementals, @?${{e1}}#$b#They certainly saw you.${{e9}}#$e#You are often inquired about, and never do I have a coherent explanation.${{e7}}#$b#Now perhaps some of them will understand what you are.${{e1}}#$b#Perfection.${{e6}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "You still create quite the hubbub among the elementals this time of year.${{e1}}#$b#What can I say? You're extraordinary.${{e9}}#$b#The elementals circulating you should consider themselves blessed to be allowed in your presence.${{e1}}#$b#Perhaps they might smite me for saying such contentious things, but what husband would I be if I said otherwise.${{e3}}#$e#If even the elementals are blessed, then I'm truly the luckiest man in the world.${{e6}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {"Wizard": "The elementals still ask about you every year...${{e2}}#$e#If the elementals wont give me a break, then can at least you leave me alone.${{e10}}",}
+        },
+
+        { //Festival of Ice
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "Surely you have more interesting things to do.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "0, 1, 2, 3"},
+        "Entries": {"Wizard": "It is easy to get lost in these woods. You should go.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "The festival noise makes working impossible.${{e5}}#$b#I'll be relieved when they leave.${{e10}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "4, 5"},
+        "Entries": {"Wizard": "I hope I won't have to save any fallen children from those openings in the ice this year.${{e10}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "I prefer to watch from afar, rather than engage.${{e3}}#$e#It's probably best for all of us, that way.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "6, 7, 8"},
+        "Entries": {"Wizard": "Did you know Linus is exceptional in igloo construction?${{e1}}#$b#He's a well traveled man with an immense amount of practical knowledge. I've known him for some time now and still the breadth of his skills surprise me.${{e9}}#$e#Would you like to go greet him with me?${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "Are you enjoying yourself?${{e1}}#$e#I'll remain up here, if it's all the same to you.${{e9}}#$b#You remember what happened last time I tried to talk to a normal person.${{e10}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {"Wizard": "How are you, @? Are you keeping warm?#$b#I can offer you my cape if you'd like, it's magically reinforced and surprisingly insulating.${{e1}}#$b#Or I can prepare you a warming concoction if thats more to your liking?${{e3}}#$e#What, still distrusting my potions from when we first met?${{e1}}#$b#I promise I'll try to make it palatable this time.${{e7}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Relationship:Wizard": "Married",},
+        "Entries": {"Wizard": "I can't say I understand the purpose of all this, but it only matters than you enjoy yourself.${{e9}}#$e#Are you?${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "Good luck in the fishing competition, my heart.${{e1}}#$e#... Join?${{e3}}#$b#... Fishing... in front of the whole town...${{e11}}#$b#Ah... I would much rather join the fish.${{e10}}#$b#I apologize if that disappoints you, my love. I will be supporting you from the sidelines, I promise.${{e10}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+        "When": {"Relationship:Wizard": "Divorced"},
+        "Entries": {"Wizard": "%Magnus is beginning teleportation.",}
+        },
+	
+		{ //Feast of the Winter Star (He only shows in Marriage)
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "When": {"Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "I have taken the liberty of setting up this space just for the two of us, away from the main bustle of festivities. I hope you don't mind.${{e4}}#$e#Linus was just keeping me company.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Married"},
+        "Entries": {"Wizard": "Merry Waxing Energies, my heart.${{e9}}#$b#...If I'm not mistaken this is a festival for gift-giving, am I correct?${{e3}}#$b#...Give me your hands...here.${{e4}}[337 517 72]#$b#I love you, @. This gift doesn't represent even a fraction of how much I do.${{e6}}#$e#Well now, what do you say to a good meal?${{e7}}",}
+        },
+
+        //RSV Festivals
+        { //Ridgeside Gathering
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Hearts:Wizard": "2, 3", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "Leave it to the current young generation to get their hands on the strangest of materials.#$b#I must stop by once the crowd dies down.${{e3}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "2, 3", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "Competition has quite the knack for unlocking ones full motivation.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Hearts:Wizard": "4, 5", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "@, have you been acquainted with Mr. Aguar?${{e3}}#$b#You could say he is an old co-worker of mine. He is quite talented in his field.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "4, 5", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "I seldom have an excuse to visit this village. But when the opportunity arrives, I try to pay Mr. Aguar a visit.#$b#There is much we can learn from each other, our separate areas of study inform one another.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Hearts:Wizard": "6, 7, 8", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "I heard that a concert is coming up? Are you able to confirm?${{e3}}#$b#I may consider leaving early, prolonged loud noise often gives me a headache.${{e10}}#$b#Living in a tower, out in the middle of the woods, has certainly spoiled me a bit.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"IsOddYear": false, "Hearts:Wizard": "6, 7, 8", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "Greetings, @. How are you finding the event?${{e1}}#$b#May I ask, have you visited the shops? Are there any prismatic shards in their wares?${{e3}}#$b#I require one for an upcoming experiment, it would be convenient to purchase one today.",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Relationship:Wizard": "Dating, Engaged", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "@, it is a pleasure to see you.${{e1}}#$b#I was just discussing recent local phenomenon with Mr. Aguar here. Alongside his study, he keeps tabs on the magic activity of Ridgeside.#$b#It certainly makes my job as resident magical practitioner easier. It is time consuming enough to keep track of Pelican Town as is.${{e9}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Dating, Engaged", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "Have you had the opportunity to explore the forest north of here, @?${{e3}}#$b#My protection barrier does not cover it, so it is seldom visited. As a result there are many poorly documented phenomenon.${{e3}}#$b#Knowing you, you may find it an area of great interest.${{e1}}#$e#That said, it is highly dangerous. Please do mind your safety, no discovery is worth your health.${{e2}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Relationship:Wizard": "Married", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "How are you enjoying the gathering, my love.${{e9}}#$b#Earlier, I noticed some rare seed varieties available for purchase, do you need any?${{e3}}#$b#I can purchase them in your stead if you are busy catching up with the locals.${{e9}}#$e#Ah... what do presume would be the best way to approach the shop? I would prefer to not intimidate anyone too much.${{e10}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Married", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "My heart, do you think there will be any food left over once the gathering ends?${{e3}}#$b#It would be quite convenient to have leftovers for dinner in place of cooking don't you think?${{e1}}#$b#I could even reheat them with a spell if that strikes your fancy.${{e9}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall20",
+        "When": {"Relationship:Wizard": "Divorced", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "%Magnus turns towards Mr. Aguar.",}
+        },
+
+        { //Ember of Resolutions - Attends only when dating + marriage, otherwise he sits on the edge of a cliff, I think unaccessible w/o dialogue
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter28",
+        "When": {"Relationship:Wizard": "Dating, Engaged", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "Tomorrow, the energies will begin to thrive once again. If you focus, you may even be able to sense them.${{e1}}#$b#It helps to think of them as the faint sounds of scurrying rabits in the snow.#$b#Or in our case, the first sparks of a flame.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter28",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Dating, Engaged", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "Have you carved out your wish?${{e1}}#$b#I hope it comes true, if there is anything I can do to assist your wish, let me know.${{e1}}#$e#My wish? Ah... I dont typically participate. As I told you earlier, I usually observe from afar.${{e3}}#$b#You think a wizard doesn't have his own New Year rituals?${{e1}}#$b#Wouldn't carving the same wish out twice make it less likely to come true?${{e9}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter28",
+        "When": {"Relationship:Wizard": "Married", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "Here, dont forget your log, my heart.${{e3}}#$b#I wouldn't want my favourite farmer to miss out on this years boon of wishes.${{e6}}#$b#I will find you when the bonfire begins. I am catching up with Mr. Aguar in the mean time.${{e1}}",}
+        },
+        {
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter28",
+        "When": {"IsOddYear": false, "Relationship:Wizard": "Married", "HasMod": "Rafseazz.RSVCP"},
+        "Entries": {"Wizard": "Are you staying warm, @? The wind at this altitude is cold enough to begin seeping through even my magically enforced clothing.${{e3}}#$b#My cape has room for you if at any point you feel too cold, my heart.${{e1}}#$e#Later however, I may need some of your body heat myself...${{e4}}",}
+        },
+	]
+}

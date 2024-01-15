@@ -1,0 +1,18 @@
+{
+	"Changes": [
+			{ //Linus
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Linus",
+	        "Entries": {
+	            "Mon4_inlaw_Wizard": "I feared that old man wouldn't have it in him to remarry.#$b#I'm happy you two found each other.$1",
+		            },
+		        },
+	        { //Marlon
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Marlon",
+	        "Entries": {
+	            "Sat4_inlaw_Wizard": "How is Rasmodius these days?#$b#Happy to hear you're both doing well.$2",
+		        	},
+		    	},
+	]
+}

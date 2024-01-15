@@ -1,0 +1,204 @@
+{
+	"Changes": [
+
+		{ //Rainy Dialogue
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/rainy",
+        "Entries": {
+            "Wizard": "{{Random: Stormy days are the only time I can commune with certain elementals. It is a delicate business.#$e#Embrace the mysteries of the day, @.${{e1}} @@ This is a much livelier rainfal than expected. The elementals are more abundant than normal.#$b#Seek the energies, @. Enjoy the day.${{e1}} @@ I much appreciate this weather, the rhythmic beat of rain makes it easier to focus on my work.#$b#Focus your mind today, @, and be at peace.${{e1}} |inputSeparator=@@}}",
+            },
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/rainy",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "Wizard": "{{Random: @, it is nice of you to visit me in the rain.${{e1}}#$b#I do hope you are staying warm and dry however. How would you feel if I fashioned you a magically enchanced rain coat?${{e3}} @@ I imagine a farmer appreciates rainy weather more than most.${{e3}}#$b#In that regard, wizards and farmers are not as different as one would think.${{e1}} @@ I have been anticipating this rainfall for quite some time. I have been preparing an experiment that requires it.${{e3}} |inputSeparator=@@}}",
+            },
+        },
+		//Pre Festival Dialogues
+		{ //Egg Festival
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"spring_12": "The Egg Festival is bizarre at best, and a headache to clean up at worst.${{e10}}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"spring_12": "Are you planning to attend the egg hunt again, @?${{e1}}It would be quite convenient if eggs just happened to show up at ur feet...${{e9}}#$e#I am kidding of course, your ability to find and conquer is more than sufficient to win as is.${{e6}}",
+        	},
+    	},
+    	{ //Flower Dance
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"spring_23": "I would say the Flower Dance is the oldest tradition of Pelican Town.#$b#It is also the only one that forces the residents to pass by my tower...${{e10}}#$b#Each year there is always some amount of missed litter I must clean up.${{e10}}#$b#If only they would be satisfied with dancing anywhere else, the beach has a nice view, no?${{e11}}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"spring_23": "@, do you dance?${{e3}}#$b#It must be a sight to behold...${{e1}}",
+        	},
+    	},
+    	{ //Luau
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"summer_10": "It's peculiar of people to revolt at the smell of a cauldron, but be so willing to try the communal soup.${{e3}}#$b#The way I see it, it might as well be the same thing.${{e7}}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"summer_10": "I imagine whatever you contribute to the communal soup is responsible for its bearability.${{e1}}#$e#Ah... Please don't try feeding me it.${{e10}}",
+        	},
+    	},
+    	{ //Dance of the Moonlight Jellies
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"summer_28": "I once had the opportunity to study a Lunaloo up close.#$b#They are an interesting specimen as they are closely related to pure elemental beings.${{e3}}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"summer_28": "Hmm? You seem excited for tonight.${{e1}}#$b#I hope you are aware that your radiance rivals even the Lunaloos.${{e6}}",
+        	},
+    	},
+    	{ //Stardew Valley Fair
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"fall_15": "I am looking forward to meet with Welwick tomorrow.${{e1}}#$b#I may even ask for a divination myself...${{e3}}#$b#It helps to prepare for your luckiest days, certain rituals can be quite dependent on your luck.${{e3}}#$e#I learned that the hard way.${{e10}}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"fall_15": "Do you feel prepared for the grange display tomorrow, @?{{e3}}#$b#I am confident you will do well. You have worked hard this year, it will surely pay off.${{e1}}#$e#If you don't win, then surely, Lewis has poor taste.${{e9}}",
+        	},
+    	},
+    	{ //Spirit's Eve
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"fall_26": "Tonight and tomorrow I will depart to prepare for the Spirit's Eve festival.#$b#It is a niche I have found in Pelican Town's social circle, I enjoy participating in this way.${{e1}}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"fall_26": "Any requests for tomorrow's Spirits Eve festival?${{e7}}#$b#I cannot imagine any monster that is acceptable for the town's display, but one you also haven't yet seen.${{e3}}",
+        	},
+    	},
+        { //Festival of Ice
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_7": "Yes, I am thrilled for 'lets gather around the wizards tower' day.${{e10}}#$b#I typically stand vigil at the edge of the woods in case anyone wanders off too far.",
+            },
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_7": "Isn't it uncommon for a full time farmer to also be an avid fisher?${{e3}}#$b#I will admit I was surprised when I found out, but it only made sense for someone of your caliber to be so multi talented.${{e1}}",
+            },
+        },
+        { //Night Market/Birthday
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_17": "I find it convenient that the Night Market comes around this time of year.#$b#It is a great opportunity to stock up on rarer ingredients for the returning energies in spring.${{e9}}",
+            },
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_17": "Oh, @!${{e1}}#$b#Wonderful timing, I was preparing to invite you to the Night Market tonight with me. What do you say?${{e6}}#$b#It is alright if you have other plans, I will make do.${{e4}}",
+            },
+        },
+        { //Feast of the Winter Star
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_24": "Tomorrow's feast?${{e3}}#$b#I do know of it, no, I do not attend. I find it strange to celebrate a supposed 'Winter Star' that does not even exist.#$e#I would... also feel quite out of place if I were to attend.${{e10}}",
+            },
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_24": "I am sorry @, I am not sure I can bring myself to attend the feast tomorrow. Please forgive me.${{e2}}#$b#It's an intimidating event, I cannot fathom how you handle it.${{e10}}#$b#What happens if you're assigned to gift one you have never once spoken to...${{e11}}",
+            },
+        },
+        { //New Year (not a festival but I wanted to add dialogue anyway)
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_28": "Typically, many celebrate late into the night. However I imagine that is not the case for you, long day ahead of you tomorrow, no?",
+            },
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_28": "Happy New Year, @.${{e1}}#$b#Are you taking the day to relax? I imagine tomorrow will be quite busy for you.#$b#If your schedule permits, I would not object to spending some time together tonight. My tower is quite warm...${{e4}}",
+            },
+        },
+		//Ridgeside Compat
+        { //Ridgeside Gathering
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+        	"fall_19": "Mr. Aguar's schedule and mine seldom intersect. Tomorrow's gathering is one of the few times a year we have reason to speak.#$b#As someone who used to be involved in the magical realm, his perspective can be quite valuable.${{e3}}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP", "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"fall_19": "Can I expect to see you at tomorrow's Ridgeside Gathering, @?${{e1}}I go mainly to visit Mr. Aguar. He is an old colleague of mine that I rarely get to see otherwise.#$b#He certainly can be frosty, I can put in my good word if you would like.${{e9}}",
+        	},
+    	},
+    	{ //Ember of Resolutions
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+        	"winter_27": "The Ember of Resolutions?${{e3}}#$b#I do not typically attend. There are certain rituals I must perform on New Years Eve.${{e3}}#$b#It is a bit of a magical superstition, but they are done to ensure success in ones endeavours in the new year.#$e#That said, I try to make time to watch the festival from afar. It has a certain energy to it that is nice to bask in.${{e9}}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP", "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"winter_27": "You want me to come to the Ember of Resolutions with you?${{e4}}#$b#Ah... well if you insist.${{e1}}#$b#I typically only watch from afar. It'll be interesting to see it all up close.${{e9}}",
+        	},
+    	},
+	]
+}

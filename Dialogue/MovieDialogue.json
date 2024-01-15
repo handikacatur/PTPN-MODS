@@ -1,0 +1,308 @@
+{
+	"Changes": [
+//Acceptance
+		{
+		"Action": "EditData",
+		"Target": "Strings/Characters",
+		"Entries": {
+			"MovieInvite_Invited_Wizard": "Ah, yes. Movies. A modern invention with which I am most certainly familiar. Yes. *Ahem* I would be glad to go. I shall meet you there.",
+			"MovieInvite_Spouse_Wizard": "There is nothing I would rather do than spend time in your company, my love, movie or no.${{e6}}#$e#I would be delighted. I will see you there shortly.${{e1}}",
+			},
+		},
+
+		{ //Base
+		"Action": "EditData",
+		"Target": "Data/MoviesReactions",
+		"Entries": {
+			"Wizard": {
+				"NPCName": "Wizard",
+			    "Reactions": [
+				     	{
+				        "Tag": "fall_movie_0", //Mysterium
+				        "Response": "love",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "I sense an arcane power permeating this building tonight..."
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"There's a twinkle in Wizard's eye...\"",
+				            "Text": "And to think... the layman has no idea that this is all raw, real footage!${{e1}}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "For those aware of the esoteric mysteries, that had deep significance...${{e3}}"
+				        		}
+				        	},
+				        "ID": "reaction_1"
+				    	},
+				    	{
+				        "Tag": "winter_movie_1", //The Zuzu City Express
+				        "Response": "like",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "Is this a black and white film? Interesting...${{e3}}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"There's a twinkle in Wizard's eye...\"",
+				            "Text": "This movie, it truly is the one I remember!${{e1}}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "The movie was alright. But it surprised me to see a film I remember hearing about many years ago.${{e1}}"
+				        		}
+				        	},
+				        "ID": "reaction_2"
+				    	},
+				    	{
+				        "Tag": "*",
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+				        	"BeforeMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "..."
+				          		},
+				        	"DuringMovie": null,
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "You pulled me from my studies for *this*?${{e10}}"
+				          		}
+				        	},
+				        "ID": "reaction_0"
+				    	},
+					]
+				},
+		  	},
+		},
+		{ //Dating, Married
+		"Action": "EditData",
+		"Target": "Data/MoviesReactions",
+		"When": {"Relationship:Wizard": "Dating, Engaged, Married"},
+		"Entries": {
+			"Wizard": {
+				"NPCName": "Wizard",
+			    	"Reactions": [
+				     	{
+				        "Tag": "fall_movie_0", //Mysterium
+				        "Response": "love",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "I sense an arcane power permeating this building tonight...${{e3}}#$b#Have you ever seen this movie before, @?"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"There's a twinkle in Magnus' eye...\"",
+				            "Text": "And to think... the layman has no idea that this is all raw, real footage!${{e1}}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "For those aware of the esoteric mysteries, that had deep significance...${{e3}}#$b#Hmm? You found it scary?${{e3}}#$b#Worry not @, most of what it showed isn't harmful to humans.${{e1}}"
+				        		}
+				        	},
+				        "ID": "reaction_1"
+				    	},
+				    	{
+				        "Tag": "winter_movie_1", //The Zuzu City Express
+				        "Response": "like",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "Is this a black and white film? Interesting...${{e3}}#$b#I have suspicions that I may have heard of this movie a long time ago.${{e3}}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"Magnus leans in...\"",
+				            "Text": "This movie, it truly is the one I remember!${{e1}}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "Objectively, I found the movie subpar. But I enjoyed the nostalgia it gave me.${{e1}}#$b#Subpar? Well, it felt quite unfinished and unsatisfying to watch. It did not live up to the positive reviews I heard of from before.#$b#I also believe romance genres just... are not in my field of interests.${{e10}}"
+				        		}
+				        	},
+				        "ID": "reaction_2"
+				    	},
+				    	{
+				        "Tag": "spring_movie_0", //The Brave Little Sapling
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "Hmm, The Brave Little Sapling? Is this a nature documentary?${{e3}}#$b#How could a sapling be perceived as... brave?${{e3}}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"Magnus seems to be dozing off...\"",
+				            "Text": ""
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "Do you mind summarizing how the movie ended, my heart.${{e10}}#$b#I am afraid I may have fallen asleep...${{e11}}"
+				        		}
+				        	},
+				        "ID": "reaction_3"
+				    	},
+				    	{
+				        "Tag": "summer_movie_0", //Journey Of A Prarie King: The Motion Picture
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "You might find it strange, but the title 'Prarie King' actually comes from the wizardry world.${{e1}}#$b#Records state he was a powerful wizard, one of the first to begin the tradition of resident magical practioners.#$b#Unfortunately history records him as cautionary example of how hunger for power ultimately kills."
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"Magnus furrows his brows.\"",
+				            "Text": "It appears that this reimagination of the Prarie King is far removed from the source.${{e3}}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "I wonder how the Prarie King made it into the common folk's culture.${{e3}}#$b#Surely there must've been multiple mistellings of the story before the story got reduced to this."
+				        		}
+				        	},
+				        "ID": "reaction_4"
+				    	},
+				    	{
+				        "Tag": "summer_movie_1", //Wumbus
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "It has been a while since I've watched or read a comedy. Never particularly found time for it outside of my academic reading."
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"Magnus looks very... focused.\"",
+				            "Text": ""
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "Well...${{e10}}#$b#I feel I may simply be too old to understand.${{e10}}"
+				        		}
+				        	},
+				        "ID": "reaction_5"
+				    	},
+				    	{
+				        "Tag": "winter_movie_0", //The Miracle At Coldstar Ranch
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "You already know what I think about the 'Winter Star,' @. My hopes for any accuracy in this film are exceedingly low.#$b#...What do you mean that is not the point?${{e3}}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/message \"Magnus looks to be lost in thought.\"",
+				            "Text": ""
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "I am afraid I've come no closer to understanding the purpose of this movie.${{e11}}#$b#However... I would still like to understand. @, can you please explain what you previously meant by 'the point?'"
+				        		}
+				        	},
+				        "ID": "reaction_6"
+				    	},
+				    	{
+				        "Tag": "spring_movie_1", //Natural Wonders: Exploring Our Vibrant World
+				        "Response": "like",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "A documentary? This could very well prove to be interesting.${{e3}}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "Why is the camera focusing in on... ${{e3}}"
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "Hmm? It was alright. I found myself hoping it would delve into the more arcane properties of the subject, but I supppose that would be uninteresting to the broader population.${{e3}}#$b#At least it was refreshing to learn something new from a field of study different from my own.${{e1}}"
+				        		}
+				        	},
+				        "ID": "reaction_7"
+				    	},
+				    	{
+				        "Tag": "fall_movie_1", //It Howls In The Rain
+				        "Response": "like",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+					        "BeforeMovie": {
+					        "ResponsePoint": null,
+					        "Script": "",
+					        "Text": "I can appreciate a good horror if done right. However it is difficult to scare me.#$b#Decades of working with the arcane will have that affect on you.${{e9}}"
+					        	},
+				        	"DuringMovie": {
+				            "ResponsePoint": null,
+				            "Script": "/textAboveHead Wizard \"I see...\"",
+				            "Text": ""
+				        		},
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "Is this what people find scary nowadays?#$b#It seemed mild to me, but how was it for you, @? I hope you were not too scared.${{e1}}#$b#I apologize if I was distracted during the movie...#$b#I found myself taking note of the movie's horror themes as inspiration for this years Spirit's Eve attractions.${{e9}}"
+				        		}
+				        	},
+				        "ID": "reaction_8"
+				    	},
+				    	{
+				        "Tag": "*", //All Else
+				        "Response": "dislike",
+				        "Whitelist": [],
+				        "SpecialResponses": {
+				        	"BeforeMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "..."
+				          		},
+				        	"DuringMovie": null,
+				        	"AfterMovie": {
+				            "ResponsePoint": null,
+				            "Script": "",
+				            "Text": "Hmm... How do I put this.${{e3}}#$b#I'm not sure I fully understood what was happening on the screen.${{e10}}"
+				          		}
+				        	},
+				        "ID": "reaction_0"
+				    	}, 
+					]
+				},
+		  	},
+		},
+
+
+
+	]
+}
